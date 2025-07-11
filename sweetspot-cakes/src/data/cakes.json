@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "name": "Chocolate Truffle",
+      "price": 599,
+      "image": "/images/cake1.webp",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 2,
+      "name": "Red Velvet",
+      "price": 699,
+      "image": "/images/cake2.jpg",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 3,
+      "name": "Mango Delight",
+      "price": 799,
+      "image": "/images/cake3.webp",
+      "category": "mango-cakes"
+    },
+    {
+      "id": 4,
+      "name": "Carrot Cake",
+      "price": 799,
+      "image": "/images/cake4.jpg",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 5,
+      "name": "Black Forest",
+      "price": 649,
+      "image": "/images/cake5.jpg",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 6,
+      "name": "Butterscotch",
+      "price": 499,
+      "image": "/images/cake6.jpg",
+      "category": "vanilla-cakes"
+    },
+    {
+      "id": 7,
+      "name": "Strawberry",
+      "price": 599,
+      "image": "/images/cake7.jpeg",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 8,
+      "name": "Pineapple",
+      "price": 549,
+      "image": "/images/cake8.webp",
+      "category": "pineapple-cakes"
+    },
+    {
+      "id": 9,
+      "name": "Vanilla Dream",
+      "price": 499,
+      "image": "/images/cake9.webp",
+      "category": "vanilla-cakes"
+    },
+    {
+      "id": 10,
+      "name": "Lemon Zest",
+      "price": 599,
+      "image": "/images/cake10.webp",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 11,
+      "name": "Blueberry Bliss",
+      "price": 1099,
+      "image": "/images/cake11.webp",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 12,
+      "name": "Coffee Mocha",
+      "price": 779,
+      "image": "/images/cake12.jpg",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 13,
+      "name": "Hazelnut Heaven",
+      "price": 799,
+      "image": "/images/cake13.webp",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 14,
+      "name": "Rainbow Surprise",
+      "price": 699,
+      "image": "/images/cake14.jpg",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 15,
+      "name": "Classic Cheesecake",
+      "price": 599,
+      "image": "/images/cake15.jpg",
+      "category": "exotic-cakes"
+    },
+    {
+      "id": 16,
+      "name": "KitKat Crunch",
+      "price": 649,
+      "image": "/images/cake16.png",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 17,
+      "name": "Oreo Overload",
+      "price": 699,
+      "image": "/images/cake17.avif",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 18,
+      "name": "Ferrero Rocher Cake",
+      "price": 999,
+      "image": "/images/cake18.jpg",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 19,
+      "name": "Nutella Fantasy",
+      "price": 899,
+      "image": "/images/cake19.jpg",
+      "category": "chocolate-cakes"
+    },
+    {
+      "id": 20,
+      "name": "Almond Crunch",
+      "price": 849,
+      "image": "/images/cake20.jpg",
+      "category": "vanilla-cakes"
+    }
+  ]
