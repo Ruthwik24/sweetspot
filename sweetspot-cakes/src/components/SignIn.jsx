@@ -27,19 +27,19 @@ const SignIn = () => {
       maxWidth: '500px',
       margin: '0 auto',
       minHeight: 'calc(100vh - 200px)',
-      backgroundColor: '#FFF8E7'
+      backgroundColor: '#FFF0EB' // Updated coral background
     }}>
       <div style={{
         background: 'white',
         borderRadius: '16px',
         padding: '40px',
-        boxShadow: '0 8px 30px rgba(139, 0, 0, 0.08)',
+        boxShadow: '0 8px 30px rgba(199, 21, 133, 0.08)', // Updated magenta shadow
         border: '1px solid rgba(212, 175, 55, 0.3)'
       }}>
         <h2 style={{
           fontSize: '32px',
           marginBottom: '30px',
-          color: '#8B0000',
+          color: '#C71585', // Updated magenta color
           textAlign: 'center',
           fontFamily: '"Playfair Display", serif',
           position: 'relative',
@@ -53,7 +53,7 @@ const SignIn = () => {
             transform: 'translateX(-50%)',
             width: '100px',
             height: '3px',
-            background: 'linear-gradient(to right, #8B0000, #D4AF37)'
+            background: 'linear-gradient(to right, #C71585, #D4AF37)' // Updated magenta gradient
           }}></span>
         </h2>
 
@@ -67,7 +67,7 @@ const SignIn = () => {
             onClick={() => setIsLogin(true)}
             style={{
               padding: '10px 20px',
-              background: isLogin ? '#8B0000' : 'transparent',
+              background: isLogin ? '#C71585' : 'transparent', // Updated magenta
               color: isLogin ? 'white' : '#5D4037',
               border: isLogin ? 'none' : '1px solid #E8C874',
               borderRadius: '25px',
@@ -82,7 +82,7 @@ const SignIn = () => {
             onClick={() => setIsLogin(false)}
             style={{
               padding: '10px 20px',
-              background: !isLogin ? '#8B0000' : 'transparent',
+              background: !isLogin ? '#C71585' : 'transparent', // Updated magenta
               color: !isLogin ? 'white' : '#5D4037',
               border: !isLogin ? 'none' : '1px solid #E8C874',
               borderRadius: '25px',
@@ -186,7 +186,7 @@ const SignIn = () => {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color: '#8B0000',
+                  color: '#C71585', // Updated magenta
                   cursor: 'pointer',
                   fontSize: '14px',
                   textDecoration: 'underline'
@@ -202,7 +202,7 @@ const SignIn = () => {
             style={{
               width: '100%',
               padding: '14px',
-              background: '#8B0000',
+              background: '#C71585', // Updated magenta
               color: 'white',
               border: 'none',
               borderRadius: '30px',
@@ -214,6 +214,8 @@ const SignIn = () => {
               transition: 'all 0.3s ease',
               marginBottom: '20px'
             }}
+            onMouseEnter={(e) => e.target.style.background = '#8B0A50'} // Darker magenta on hover
+            onMouseLeave={(e) => e.target.style.background = '#C71585'}
           >
             {isLogin ? 'Sign In' : 'Sign Up'}
           </button>
@@ -261,6 +263,8 @@ const SignIn = () => {
               transition: 'all 0.3s ease',
               gap: '8px'
             }}
+            onMouseEnter={(e) => e.target.background = '#FFF5F2'} // Light coral on hover
+            onMouseLeave={(e) => e.target.background = 'white'}
           >
             <img 
               src="https://www.google.com/favicon.ico" 
@@ -283,6 +287,8 @@ const SignIn = () => {
               transition: 'all 0.3s ease',
               gap: '8px'
             }}
+            onMouseEnter={(e) => e.target.background = '#FFF5F2'}
+            onMouseLeave={(e) => e.target.background = 'white'}
           >
             <img 
               src="https://www.microsoft.com/favicon.ico" 
@@ -305,6 +311,8 @@ const SignIn = () => {
               transition: 'all 0.3s ease',
               gap: '8px'
             }}
+            onMouseEnter={(e) => e.target.background = '#FFF5F2'}
+            onMouseLeave={(e) => e.target.background = 'white'}
           >
             <img 
               src="https://www.apple.com/favicon.ico" 
@@ -327,6 +335,8 @@ const SignIn = () => {
               transition: 'all 0.3s ease',
               gap: '8px'
             }}
+            onMouseEnter={(e) => e.target.background = '#FFF5F2'}
+            onMouseLeave={(e) => e.target.background = 'white'}
           >
             <img 
               src="https://www.yahoo.com/favicon.ico" 
@@ -348,7 +358,7 @@ const SignIn = () => {
             style={{
               background: 'none',
               border: 'none',
-              color: '#8B0000',
+              color: '#C71585', // Updated magenta
               cursor: 'pointer',
               fontWeight: '600',
               textDecoration: 'underline'
